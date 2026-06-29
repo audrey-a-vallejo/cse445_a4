@@ -8,7 +8,7 @@
 			<xsd:sequence>
 
 				<xsd:element name="NationalPark"
-							 minOccurs="1"
+							 minOccurs="11"
 							 maxOccurs="unbounded">
 
 					<xsd:complexType>
