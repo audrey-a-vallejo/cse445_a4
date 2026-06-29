@@ -2,7 +2,7 @@
 
 <NationalParks
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+	xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/audrey-a-vallejo/cse445_a4/refs/heads/main/NationalParks.xsd">
 
 	<!-- Example park from Figure 1 -->
 	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
