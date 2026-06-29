@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<NationalParks
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="NationalParks.xsd">
+
+	<!-- Example park from Figure 1 -->
+	<NationalPark NearestAirport="FlagStaff" Rating="4.9">
+		<Name>Grand Canyon</Name>
+		<Phone>928-638-7496</Phone>
+		<Phone>888-297-2757</Phone>
+		<Phone>866-299-2574</Phone>
+		<Address>
+			<Number>8</Number>
+			<Street>S Entrance Road</Street>
+			<City>Grand Canyon</City>
+			<State>AZ</State>
+			<Zip>86023</Zip>
+		</Address>
+	</NationalPark>
+
+	<!-- 5 parks with Rating attribute -->
+	
+	<!--Multiple Phone #'s-->
+	<NationalPark NearestAirport="Las Vegas McCarran" Rating="4.7">
+		<Name>Death Valley</Name>
+		<Phone>760-786-3200</Phone>
+		<Phone>760-786-3244</Phone>
+		<Address>
+			<Number>1</Number>
+			<Street>Death Valley Road</Street>
+			<City>Death Valley</City>
+			<State>CA</State>
+			<Zip>92328</Zip>
+		</Address>
+	</NationalPark>
+	
+	<!--Multiple Phone #'s-->
+	<NationalPark NearestAirport="Pago Pago International" Rating="4.3">
+		<Name>National Park of American Samoa</Name>
+		<Phone>684-633-7085</Phone>
+		<Phone>684-633-7082</Phone>
+		<Address>
+			<Number>1</Number>
+			<Street>MHJ Buiding 2nd Floor</Street>
+			<City>Pago Pago</City>
+			<State>AS</State>
+			<Zip>96799</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark NearestAirport="Billings Logan" Rating="4.5">
+		<Name>Bighorn Canyon</Name>
+		<Phone>307-548-5406</Phone>
+		<Address>
+			<Number>20</Number>
+			<Street>US Hwy 14A</Street>
+			<City>Lovell</City>
+			<State>WY</State>
+			<Zip>82431</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark NearestAirport="Seattle-Tacoma International" Rating="4.5">
+		<Name>Ebey's Landing</Name>
+		<Phone>360-678-6084</Phone>
+		<Address>
+			<Number>162</Number>
+			<Street>Cemetery Rd</Street>
+			<City>Coupeville</City>
+			<State>WA</State>
+			<Zip>98239</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark NearestAirport="Miami International" Rating="4.7">
+		<Name>Biscayne</Name>
+		<Phone>786-335-3620</Phone>
+		<Address>
+			<Number>9700</Number>
+			<Street>SW 328th Street, Sir Lancelot Jones Way</Street>
+			<City>Homestead</City>
+			<State>FL</State>
+			<Zip>33033</Zip>
+		</Address>
+	</NationalPark>
+	
+	<!-- 5 parks without Rating attribute-->
+	<NationalPark NearestAirport="Evansville Regional">
+		<Name>George Rogers Clark</Name>
+		<Phone>812-882-1776</Phone>
+		<Address>
+			<Number>401</Number>
+			<Street>S 2nd St</Street>
+			<City>Vincennes</City>
+			<State>IN</State>
+			<Zip>47591</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark NearestAirport="A.B. Wonpat">
+		<Name>War in the Pacific</Name>
+		<Phone>671-333-4055</Phone>
+		<Address>
+			<Number>134</Number>
+			<Street>Murray Boulevard, Suite 100</Street>
+			<City>Hagatna</City>
+			<State>GU</State>
+			<Zip>96910</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark NearestAirport="Daniel K. Inouye International">
+		<Name>Ala Kahakai</Name>
+		<Phone>808-974-4217</Phone>
+		<Address>
+			<Number></Number>
+			<Street>73-4786 Kanalani St #14</Street>
+			<City>Kailua-Kona</City>
+			<State>HI</State>
+			<Zip>96740</Zip>
+		</Address>
+	</NationalPark>
+
+	<NationalPark NearestAirport="Bellingham International">
+		<Name>Fort Vancouver</Name>
+		<Phone>360-816-6230</Phone>
+		<Address>
+			<Number>1001</Number>
+			<Street>E 5th St #1501</Street>
+			<City>Vancouver</City>
+			<State>WA</State>
+			<Zip>98661</Zip>
+		</Address>
+	</NationalPark>
+
+	<!--Multiple Phone #'s-->
+	<NationalPark NearestAirport="Rapid City Regional">
+		<Name>Badlands</Name>
+		<Phone>605-433-5361</Phone>
+		<Phone>605-433-5362</Phone>
+		<Address>
+			<Number>25216</Number>
+			<Street>Ben Reifel Road</Street>
+			<City>Interior</City>
+			<State>SD</State>
+			<Zip>57750</Zip>
+		</Address>
+	</NationalPark>
+	
+	
+	
+	
+</NationalParks>
