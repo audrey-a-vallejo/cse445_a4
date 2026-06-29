@@ -19,7 +19,7 @@
 							<xsd:element name="Phone"
 										 type="xsd:string"
 										 minOccurs="1"
-										 maxOccurs="unbounded"/>
+										 maxOccurs="3"/>
 
 							<xsd:element name="Address">
 								<xsd:complexType>
