@@ -2,12 +2,12 @@
 
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-	<xsd:element name ="NationalParks">
+	<xsd:element name ="National Parks">
 
 		<xsd:complexType>
 			<xsd:sequence>
 
-				<xsd:element name="NationalPark"
+				<xsd:element name="National Park"
 							 minOccurs="11"
 							 maxOccurs="unbounded">
 
