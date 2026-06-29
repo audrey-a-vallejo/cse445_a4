@@ -46,7 +46,7 @@
 						</xsd:sequence>
 
 						<xsd:attribute name="Rating"
-									   type="xsd:decimal"
+									   type="xsd:string"
 									   use="optional"/>
 
 						<xsd:attribute name="NearestAirport"
