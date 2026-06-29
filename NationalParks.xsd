@@ -8,6 +8,7 @@
 			<xsd:sequence>
 
 				<xsd:element name="NationalPark"
+							 minOccurs="1"
 							 maxOccurs="unbounded">
 
 					<xsd:complexType>
@@ -18,6 +19,7 @@
 
 							<xsd:element name="Phone"
 										 type="xsd:string"
+										 minOccurs="1"
 										 maxOccurs="unbounded"/>
 
 							<xsd:element name="Address">
